@@ -1,0 +1,20 @@
+table {
+    text-align: left;
+}
+th {
+    text-decoration: underline;
+    font-weight: 600;
+}
+td,th {
+    width: 12%;
+  }
+tr:nth-child(odd) {
+    background-color: rgb(236,229,154);
+}
+tr:nth-child(even) {
+    background-color: rgb(132,141,130);
+}
+td:hover {
+    background-color: rgb(253,110,138)
+}
+/* color palette adapted from: http://www.colourlovers.com/palette/147921/Blue_Kitten */
